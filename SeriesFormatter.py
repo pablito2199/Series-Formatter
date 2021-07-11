@@ -2,7 +2,7 @@ from pathlib import Path
 
 path = input("Which is the path to the series' files? ")
 serie = input("Which is the series' name? ")
-season = input("Which is the season from {serie}? ")
+season = input("Which is the season from " + serie +  "? ")
 extension = input("Which is your file extension? (e.g: mp4) ")
 chapter = 1
 
